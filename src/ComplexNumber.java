@@ -15,7 +15,7 @@
 		}
 		
 		
-		//setter/getter
+		//Getter
 		
 		public double get_a()
 		{
@@ -27,13 +27,8 @@
 			return b;
 		}
 		
-		public String get_number()
-		{
-			//String text = String.valueOf(a) + ":" + String.valueOf(b);
-			String text = a + " : " + b;
-			return text;
-		}
-	
+		
+		//Setter
 	
 		public void set_a(double a)
 		{
@@ -46,14 +41,21 @@
 		}
 		
 
-		
 		//functions
+	
+		public String get_number()
+		{
+			String text = a + " : " + b;
+			return text;
+		}
+		
 		
 		public void add(ComplexNumber x)
 		{
 			this.a += x.get_a();
 			this.b += x.get_b();
 		}
+				
 
 	
 		

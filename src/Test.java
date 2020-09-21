@@ -2,15 +2,19 @@ import java.util.Arrays;
 
 public class Test {
 
+		
+		
 	public static void main(String[] args) {
 		
-		
-		
-		ComplexNumber c1 = new ComplexNumber(1.0, 2.0);
+		ComplexNumber c1 = new ComplexNumber(3.0, 2.0);
 		ComplexNumber c2 = new ComplexNumber(3.0, 4.0); 
+		
 		System.out.println("c1 = " + c1.get_number());
 		System.out.println("c2 = " + c2.get_number());
+		
 
+		ComplexNumber sum1 = c1.add(c2);
+		System.out.println("sum1 = " );
 	
 		
 	
