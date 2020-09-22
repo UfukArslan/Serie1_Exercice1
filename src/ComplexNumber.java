@@ -50,11 +50,53 @@
 		}
 		
 		
-		public void add(ComplexNumber x)
+		public String add(ComplexNumber x)
+		
 		{
 			this.a += x.get_a();
 			this.b += x.get_b();
+			String sum = a + " : " + b;
+			return sum;
 		}
+		
+		
+		public String addV2(ComplexNumber x, ComplexNumber y)
+		
+		{
+			
+			a = x.get_a() + y.get_a();
+			b = x.get_b() + y.get_b();
+			
+			String sum = a + " : " + b;
+			return sum;
+		}
+		
+		
+		
+		public String multi(ComplexNumber x)
+		
+		{
+			this.a *= x.get_a();
+			this.b *= x.get_b();
+			
+			String multi = a + " : " + b;
+			return multi;
+		}
+		
+		
+		public String mulitV2(ComplexNumber x, ComplexNumber y)
+		
+		{
+			a = x.get_a() * y.get_a();
+			b = x.get_b() * y.get_b();
+			
+			String multi = a + " : " + b;
+			return multi;
+
+		}
+		
+		
+
 				
 
 	

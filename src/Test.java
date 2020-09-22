@@ -6,15 +6,28 @@ public class Test {
 		
 	public static void main(String[] args) {
 		
+		ComplexNumber ComplexNumber = new ComplexNumber();
+		
 		ComplexNumber c1 = new ComplexNumber(1.0, 2.0);
 		ComplexNumber c2 = new ComplexNumber(3.0, 4.0); 
 		
-		System.out.println("c1 = " + c1.get_number());
-		System.out.println("c2 = " + c2.get_number());
+//		System.out.println("c1 = " + c1.get_number());
+//		System.out.println("c2 = " + c2.get_number());
 		
+//		String sum1 = c1.add(c2);
+//		System.out.println("sum1 = " + sum1 );
+//		
+//		String sum2 = ComplexNumber.addV2(c1, c2);
+//		System.out.println("sum2 =" + sum2);
+		
+//		String produit1 = c1.multi(c2);
+//		System.out.println("produit1 = " + produit1 );
+		
+//		String produit2 = ComplexNumber.mulitV2(c1, c2);
+//		System.out.println("produit2 = " + produit2);
+//		
 
-//		ComplexNumber sum1 = c1.add(c2);
-//		System.out.println("sum1 = " );
+		
 	
 		
 	
